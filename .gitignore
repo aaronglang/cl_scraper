@@ -1,0 +1,18 @@
+# ignore vscode directory
+.vscode
+.DS_Store
+
+# ignore jupyter files
+*.ipynb
+.ipynb_checkpoints
+
+# ignore test csv result files
+./db/results
+db/old_results/*
+db/results/*
+db/*.ipynb
+db/.ipynb_checkpoints
+
+# ignore html directory
+html
+html/*
