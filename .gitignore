@@ -10,11 +10,12 @@
 ./db/results
 db/old_results/*
 db/results/*
-db/*.ipynb
-db/.ipynb_checkpoints
+./db/*.ipynb
+./db/.ipynb_checkpoints
 
 # ignore html directory
 html
 html/*
 # ignore pyc files
 *.pyc
+src/*.pyc
