@@ -16,3 +16,5 @@ db/.ipynb_checkpoints
 # ignore html directory
 html
 html/*
+# ignore pyc files
+*.pyc
