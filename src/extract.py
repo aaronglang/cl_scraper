@@ -44,16 +44,16 @@ class Extract:
     @validate_params
     def extract_search(self, **kwargs):
         """ Extract html from given url and return raw html """
-        city = self.__get_city_url()
+        (city, city_url) = self.__get_city_url()
         search = self.__get_search_type()
         if search is None:
             raise ValueError(f'search type invalid:\n\t"{self.__search_type}"')
-        city = re.sub(r'/$', '', city)
-        url = f'{city}{search}'
+        city_url = re.sub(r'/$', '', city_url)
+        url = f'{city_url}{search}'
         r = self.__get(url, kwargs)
         print(r.url)
         s = re.sub(r'\/search\/', '', search)
-        return (r, s)
+        return (r, s, city)
 
     def extract_post(self, url: str):
         """ Extract html from individual posting """
@@ -74,7 +74,7 @@ class Extract:
         apply_func = lambda x: editdistance.eval(x['city_name'], self.__city) < 4
         matcher = df[df.apply(apply_func, axis=1)]
         if not matcher.empty:
-            return matcher['link'].values[0]
+            return (matcher['city_name'].values[0], matcher['link'].values[0])
 
     def __get_search_type(self):
         df = pd.read_csv(f'{dirname}/db/search_types/{self.__vendor}.csv')

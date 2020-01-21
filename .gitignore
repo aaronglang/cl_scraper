@@ -12,6 +12,7 @@ db/old_results/*
 db/results/*
 ./db/*.ipynb
 ./db/.ipynb_checkpoints
+./db/*.csv
 
 # ignore html directory
 html
@@ -19,3 +20,8 @@ html/*
 # ignore pyc files
 *.pyc
 src/*.pyc
+# ignore .env file
+.env
+# ignore dev files
+./src/queue.py
+main_dev.py

@@ -28,8 +28,9 @@ class CraigSearch(Extract, ListingParser, Utils):
 
     def soupify(self, params):
         """ Creates bs4 formatted soup from html response """
-        (response, search_type) = self.extract_search(**params)
+        (response, search_type, city) = self.extract_search(**params)
         self.__search_type = search_type
+        self.city = city
         soup = BeautifulSoup(response.text, 'html.parser')
         self.__get_totals(soup)
         return soup
@@ -53,9 +54,8 @@ class CraigSearch(Extract, ListingParser, Utils):
             search_total = self.__total[2]
             # set list of search group amounts for url
             s_num = [0] + [group_total * (i+1) if group_total * (i+1) <= search_total else search_total - 1 for i in range(groups)]
-            prcs = [Process(target=self.__parse_listings, args=(i,first_group,depth,get_body)) for i in s_num]
-            [p.start() for p in prcs]
-            [p.join() for p in prcs]
+            for i in s_num:
+                self.__parse_listings(i,first_group,depth,get_body)
 
 
     def __get_totals(self, soup):
