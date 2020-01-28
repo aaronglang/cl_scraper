@@ -55,16 +55,9 @@ class Extract:
         s = re.sub(r'\/search\/', '', search)
         return (r, s, city)
 
-    def extract_post(self, url: str):
-        """ Extract html from individual posting """
-        pass
-
-    def __get_posting_url(self, pid: int):
-        """ Get individual posting by posting ID """
-
     def __get_city_url(self):
         """ 
-        Get city from CSV/DB 
+        Get city from CSV/DB
 
         search conditions: 
         if edit distance is less than 4 -> return city

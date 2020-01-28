@@ -10,7 +10,7 @@ from src.listing_parser import ListingParser
 from src.utils import Utils
 
 class CraigSearch(Extract, ListingParser, Utils):
-    """ Search class is responsible for parsing a search in craigslist """
+    """ Search class is responsible for parsing a For-Sale search in craigslist """
 
     def __init__(self, **kwargs):
         self.__params = {}
@@ -39,13 +39,13 @@ class CraigSearch(Extract, ListingParser, Utils):
         """ Extract and parse all data from postings according to search """
         first_group = self.soupify(self.__params)
         if sum(self.__total) == 0:
-            return None
+            yield None
         # scraping first page of results
         if first_page_only:
             # extract data from first page of search results
-            self.__parse_listings(0, first_group, depth, get_body)
+            yield self.__parse_listings(0, first_group, depth, get_body)
         # scraping all result pages
-        else:         
+        else:
             # calculate search groups
             ranges = self.__total[2]/self.__total[1]
             groups = math.ceil(ranges) - 1
@@ -55,8 +55,8 @@ class CraigSearch(Extract, ListingParser, Utils):
             # set list of search group amounts for url
             s_num = [0] + [group_total * (i+1) if group_total * (i+1) <= search_total else search_total - 1 for i in range(groups)]
             for i in s_num:
-                self.__parse_listings(i,first_group,depth,get_body)
-
+                yield self.__parse_listings(i,first_group,depth,get_body)
+                
 
     def __get_totals(self, soup):
         """ Get totals from search results """
@@ -113,5 +113,4 @@ class CraigSearch(Extract, ListingParser, Utils):
             posts = p.starmap(self.parse_individual_post, urls)
             p.terminate()
             p.join()
-        df = pd.DataFrame(posts)
-        self.save_results(df, self.__params, self.city, self.__search_type)
+        return posts

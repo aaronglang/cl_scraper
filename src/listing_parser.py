@@ -46,7 +46,7 @@ class ListingParser:
         data['make_model'] = make_model
         return data
 
-    def parse_listing_info(self, listing, make_model):
+    def parse_listing_info(self, listing, make_model=None):
         """ Parse data from search listing tile
         Arguments:
         listing -- listing tile (soupified html) from search results

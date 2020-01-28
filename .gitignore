@@ -3,6 +3,8 @@
 .DS_Store
 
 # ignore jupyter files
+jupyter
+jupyter/*
 *.ipynb
 .ipynb_checkpoints
 
