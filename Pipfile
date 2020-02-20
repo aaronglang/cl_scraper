@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+python-dotenv = "*"
 
 [packages]
 bs4 = "*"
@@ -12,7 +13,6 @@ pandas = "*"
 requests = "*"
 editdistance = "*"
 boto3 = "*"
-python-dotenv = "*"
 
 [requires]
 python_version = "3.7"

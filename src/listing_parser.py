@@ -36,9 +36,9 @@ class ListingParser:
             if get_body:
                 body_html = soup.find('section', id='postingbody')
                 qr_message = 'QR Code Link to This Post'
-                data['body'] = [ l.strip() for l in body_html.text.splitlines() if l and l != qr_message]
+                data['body_text'] = [ l.strip() for l in body_html.text.splitlines() if l and l != qr_message]
             else:
-                data['body'] = None
+                data['body_text'] = None
         except:
             # assume expiration if above failed
             data['active'] = False

@@ -27,7 +27,7 @@ class Utils:
             s3_client = boto3.client('s3', aws_access_key_id=s3_key, aws_secret_access_key=s3_secret)
         else:
             s3_resource = boto3.resource('s3')
-            s3_client == boto3.client('s3')
+            s3_client = boto3.client('s3')
         
         # create csv buffer to send to S3
         csv_buffer = StringIO()
@@ -46,4 +46,3 @@ class Utils:
             return True
         else:
             client.put_object(Bucket=bucket, Body='', Key=folder)
-            

@@ -1,0 +1,10 @@
+## ignore vscode files
+.vscode
+.DS_Store
+
+## ignore .env files
+.env
+
+## ignore Pipfile
+Pipfile
+Pipfile.lock

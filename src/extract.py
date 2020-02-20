@@ -7,21 +7,20 @@ import re, os
 # set dirname
 dirname = os.getcwd()
 
-params = [
-    ('min_price', int),
-    ('max_price', int),
-    ('auto_make_model', str),
-    ('min_auto_year', int),
-    ('max_auto_year', int),
-    ('min_auto_miles', int),
-    ('max_auto_miles', int),
-    ('search_distance', int),
-    ('postal', int),
-    ('s', int),
-    ('query', str)
-]
-
 def validate_params(func):
+    params = [
+        ('min_price', int),
+        ('max_price', int),
+        ('auto_make_model', str),
+        ('min_auto_year', int),
+        ('max_auto_year', int),
+        ('min_auto_miles', int),
+        ('max_auto_miles', int),
+        ('search_distance', int),
+        ('postal', int),
+        ('s', int),
+        ('query', str)
+    ]
     @wraps(func)
     def val(*args, **kwargs):
         for k in kwargs.items():

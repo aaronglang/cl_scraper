@@ -15,7 +15,8 @@ class CraigSearch(Extract, ListingParser, Utils):
     def __init__(self, **kwargs):
         self.__params = {}
         self.__total = (0,0,0)
-        self.city = kwargs['city']
+        self.__search_type = None
+        self.__city = kwargs['city']
         super().__init__(kwargs['city'], kwargs['search_type'], kwargs['vendor'])
 
     def get_params(self):
@@ -26,11 +27,17 @@ class CraigSearch(Extract, ListingParser, Utils):
         """ set search parameters """
         self.__params = params
 
+    def get_search_type(self):
+        return self.__search_type
+
+    def get_city(self):
+        return self.__city
+
     def soupify(self, params):
         """ Creates bs4 formatted soup from html response """
         (response, search_type, city) = self.extract_search(**params)
         self.__search_type = search_type
-        self.city = city
+        self.__city = city
         soup = BeautifulSoup(response.text, 'html.parser')
         self.__get_totals(soup)
         return soup
