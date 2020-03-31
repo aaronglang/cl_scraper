@@ -81,7 +81,7 @@ class ListingParser:
         _url_ = re.sub(r'(?<=\w{3}\/)d\/.*\/', '', url)
         posting_id_match = re.search(r'\d+(?=\.html$)', url)
         posting_id = posting_id_match.group(0) if posting_id_match else None
-        vendor = self.__get_vendor(url)
+        vendor = self.__get_vendor(_url_)
         return {
             'posting_id': posting_id,
             'vendor': vendor,
@@ -109,7 +109,7 @@ class ListingParser:
     def __parse_post_attributes(self, attrs):
         """ Parses listing details and location """
         data = {}
-        if 'mapbox' in attrs.div.attrs['class']:
+        if attrs.div and 'mapbox' in attrs.div.attrs['class']:
             map_info = attrs.div.div.attrs
             data['longitude'] = map_info['data-longitude']
             data['latitude'] = map_info['data-latitude']
@@ -121,3 +121,4 @@ class ListingParser:
             value = full[1] if len(full) > 1 else full[0]
             data[key.strip().replace(' ', '_')] = value.strip()
         return data
+            

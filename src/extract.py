@@ -50,7 +50,7 @@ class Extract:
         city_url = re.sub(r'/$', '', city_url)
         url = f'{city_url}{search}'
         r = self.__get(url, kwargs)
-        print(r.url)
+        print(f'QUERY = {r.url}')
         s = re.sub(r'\/search\/', '', search)
         return (r, s, city)
 
@@ -63,7 +63,12 @@ class Extract:
 
         """
         df = pd.read_csv(f'{dirname}/db/cities/craigslist_cities.csv')
-        apply_func = lambda x: editdistance.eval(x['city_name'], self.__city) < 4
+        # if link provided
+        if re.search(r'^https', self.__city):
+            apply_func = lambda x: x['link'] == self.__city
+        # if city name provided -> search for matching city name
+        else:
+            apply_func = lambda x: editdistance.eval(x['city_name'], self.__city) < 4
         matcher = df[df.apply(apply_func, axis=1)]
         if not matcher.empty:
             return (matcher['city_name'].values[0], matcher['link'].values[0])

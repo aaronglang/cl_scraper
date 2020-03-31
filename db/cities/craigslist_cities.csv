@@ -2,17 +2,17 @@
 0,Alabama,auburn,https://auburn.craigslist.org/
 1,Alabama,birmingham,https://bham.craigslist.org/
 2,Alabama,dothan,https://dothan.craigslist.org/
-3,Alabama,florence / muscle shoals,https://shoals.craigslist.org/
+3,Alabama,florence muscle shoals,https://shoals.craigslist.org/
 4,Alabama,gadsden-anniston,https://gadsden.craigslist.org/
-5,Alabama,huntsville / decatur,https://huntsville.craigslist.org/
+5,Alabama,huntsville decatur,https://huntsville.craigslist.org/
 6,Alabama,mobile,https://mobile.craigslist.org/
 7,Alabama,montgomery,https://montgomery.craigslist.org/
 8,Alabama,tuscaloosa,https://tuscaloosa.craigslist.org/
-9,Alaska,anchorage / mat-su,https://anchorage.craigslist.org/
+9,Alaska,anchorage mat-su,https://anchorage.craigslist.org/
 10,Alaska,fairbanks,https://fairbanks.craigslist.org/
 11,Alaska,kenai peninsula,https://kenai.craigslist.org/
 12,Alaska,southeast alaska,https://juneau.craigslist.org/
-13,Arizona,flagstaff / sedona,https://flagstaff.craigslist.org/
+13,Arizona,flagstaff sedona,https://flagstaff.craigslist.org/
 14,Arizona,mohave county,https://mohave.craigslist.org/
 15,Arizona,phoenix,https://phoenix.craigslist.org/
 16,Arizona,prescott,https://prescott.craigslist.org/
@@ -27,7 +27,7 @@
 25,Arkansas,texarkana,https://texarkana.craigslist.org/
 26,California,bakersfield,https://bakersfield.craigslist.org/
 27,California,chico,https://chico.craigslist.org/
-28,California,fresno / madera,https://fresno.craigslist.org/
+28,California,fresno madera,https://fresno.craigslist.org/
 29,California,gold country,https://goldcountry.craigslist.org/
 30,California,hanford-corcoran,https://hanford.craigslist.org/
 31,California,humboldt county,https://humboldt.craigslist.org/
@@ -57,7 +57,7 @@
 55,Colorado,colorado springs,https://cosprings.craigslist.org/
 56,Colorado,denver,https://denver.craigslist.org/
 57,Colorado,eastern CO,https://eastco.craigslist.org/
-58,Colorado,fort collins / north CO,https://fortcollins.craigslist.org/
+58,Colorado,fort collins north CO,https://fortcollins.craigslist.org/
 59,Colorado,high rockies,https://rockies.craigslist.org/
 60,Colorado,pueblo,https://pueblo.craigslist.org/
 61,Colorado,western slope,https://westslope.craigslist.org/
@@ -71,15 +71,15 @@
 69,Florida,daytona beach,https://daytona.craigslist.org/
 70,Florida,florida keys,https://keys.craigslist.org/
 71,Florida,fort lauderdale,https://fortlauderdale.craigslist.org/
-72,Florida,ft myers / SW florida,https://fortmyers.craigslist.org/
+72,Florida,ft myers SW florida,https://fortmyers.craigslist.org/
 73,Florida,gainesville,https://gainesville.craigslist.org/
 74,Florida,heartland florida,https://cfl.craigslist.org/
 75,Florida,jacksonville,https://jacksonville.craigslist.org/
 76,Florida,lakeland,https://lakeland.craigslist.org/
-77,Florida,miami / dade,http://miami.craigslist.org/mdc/
+77,Florida,miami dade,http://miami.craigslist.org/mdc/
 78,Florida,north central FL,https://lakecity.craigslist.org/
 79,Florida,ocala,https://ocala.craigslist.org/
-80,Florida,okaloosa / walton,https://okaloosa.craigslist.org/
+80,Florida,okaloosa walton,https://okaloosa.craigslist.org/
 81,Florida,orlando,https://orlando.craigslist.org/
 82,Florida,panama city,https://panamacity.craigslist.org/
 83,Florida,pensacola,https://pensacola.craigslist.org/
@@ -97,15 +97,15 @@
 95,Georgia,augusta,https://augusta.craigslist.org/
 96,Georgia,brunswick,https://brunswick.craigslist.org/
 97,Georgia,columbus ,https://columbusga.craigslist.org/
-98,Georgia,macon / warner robins,https://macon.craigslist.org/
+98,Georgia,macon warner robins,https://macon.craigslist.org/
 99,Georgia,northwest GA,https://nwga.craigslist.org/
-100,Georgia,savannah / hinesville,https://savannah.craigslist.org/
+100,Georgia,savannah hinesville,https://savannah.craigslist.org/
 101,Georgia,statesboro,https://statesboro.craigslist.org/
 102,Georgia,valdosta,https://valdosta.craigslist.org/
 103,Hawaii,hawaii,https://honolulu.craigslist.org/
 104,Idaho,boise,https://boise.craigslist.org/
 105,Idaho,east idaho,https://eastidaho.craigslist.org/
-106,Idaho,lewiston / clarkston,https://lewiston.craigslist.org/
+106,Idaho,lewiston clarkston,https://lewiston.craigslist.org/
 107,Idaho,twin falls,https://twinfalls.craigslist.org/
 108,Illinois,bloomington-normal,https://bn.craigslist.org/
 109,Illinois,champaign urbana,https://chambana.craigslist.org/
@@ -123,10 +123,10 @@
 121,Indiana,fort wayne,https://fortwayne.craigslist.org/
 122,Indiana,indianapolis,https://indianapolis.craigslist.org/
 123,Indiana,kokomo,https://kokomo.craigslist.org/
-124,Indiana,lafayette / west lafayette,https://tippecanoe.craigslist.org/
-125,Indiana,muncie / anderson,https://muncie.craigslist.org/
+124,Indiana,lafayette west lafayette,https://tippecanoe.craigslist.org/
+125,Indiana,muncie anderson,https://muncie.craigslist.org/
 126,Indiana,richmond ,https://richmondin.craigslist.org/
-127,Indiana,south bend / michiana,https://southbend.craigslist.org/
+127,Indiana,south bend michiana,https://southbend.craigslist.org/
 128,Indiana,terre haute,https://terrehaute.craigslist.org/
 129,Iowa,ames,https://ames.craigslist.org/
 130,Iowa,cedar rapids,https://cedarrapids.craigslist.org/
@@ -138,7 +138,7 @@
 136,Iowa,quad cities,https://quadcities.craigslist.org/
 137,Iowa,sioux city,https://siouxcity.craigslist.org/
 138,Iowa,southeast IA,https://ottumwa.craigslist.org/
-139,Iowa,waterloo / cedar falls,https://waterloo.craigslist.org/
+139,Iowa,waterloo cedar falls,https://waterloo.craigslist.org/
 140,Kansas,lawrence,https://lawrence.craigslist.org/
 141,Kansas,manhattan,https://ksu.craigslist.org/
 142,Kansas,northwest KS,https://nwks.craigslist.org/
@@ -169,7 +169,7 @@
 167,Maryland,southern maryland,https://smd.craigslist.org/
 168,Maryland,western maryland,https://westmd.craigslist.org/
 169,Massachusetts,boston,https://boston.craigslist.org/
-170,Massachusetts,cape cod / islands,https://capecod.craigslist.org/
+170,Massachusetts,cape cod islands,https://capecod.craigslist.org/
 171,Massachusetts,south coast,https://southcoast.craigslist.org/
 172,Massachusetts,western massachusetts,https://westernmass.craigslist.org/
 173,Massachusetts,worcester,https://worcester.craigslist.org/
@@ -193,19 +193,19 @@
 191,Michigan,upper peninsula,https://up.craigslist.org/
 192,Minnesota,bemidji,https://bemidji.craigslist.org/
 193,Minnesota,brainerd,https://brainerd.craigslist.org/
-194,Minnesota,duluth / superior,https://duluth.craigslist.org/
+194,Minnesota,duluth superior,https://duluth.craigslist.org/
 195,Minnesota,mankato,https://mankato.craigslist.org/
-196,Minnesota,minneapolis / st paul,https://minneapolis.craigslist.org/
+196,Minnesota,minneapolis st paul,https://minneapolis.craigslist.org/
 197,Minnesota,rochester ,https://rmn.craigslist.org/
 198,Minnesota,southwest MN,https://marshall.craigslist.org/
 199,Minnesota,st cloud,https://stcloud.craigslist.org/
-200,Mississippi,gulfport / biloxi,https://gulfport.craigslist.org/
+200,Mississippi,gulfport biloxi,https://gulfport.craigslist.org/
 201,Mississippi,hattiesburg,https://hattiesburg.craigslist.org/
 202,Mississippi,jackson,https://jackson.craigslist.org/
 203,Mississippi,meridian,https://meridian.craigslist.org/
 204,Mississippi,north mississippi,https://northmiss.craigslist.org/
 205,Mississippi,southwest MS,https://natchez.craigslist.org/
-206,Missouri,columbia / jeff city,https://columbiamo.craigslist.org/
+206,Missouri,columbia jeff city,https://columbiamo.craigslist.org/
 207,Missouri,joplin,https://joplin.craigslist.org/
 208,Missouri,kansas city,https://kansascity.craigslist.org/
 209,Missouri,kirksville,https://kirksville.craigslist.org/
@@ -225,22 +225,22 @@
 223,Nebraska,grand island,https://grandisland.craigslist.org/
 224,Nebraska,lincoln,https://lincoln.craigslist.org/
 225,Nebraska,north platte,https://northplatte.craigslist.org/
-226,Nebraska,omaha / council bluffs,https://omaha.craigslist.org/
-227,Nebraska,scottsbluff / panhandle,https://scottsbluff.craigslist.org/
+226,Nebraska,omaha council bluffs,https://omaha.craigslist.org/
+227,Nebraska,scottsbluff panhandle,https://scottsbluff.craigslist.org/
 228,Nevada,elko,https://elko.craigslist.org/
 229,Nevada,las vegas,https://lasvegas.craigslist.org/
-230,Nevada,reno / tahoe,https://reno.craigslist.org/
+230,Nevada,reno tahoe,https://reno.craigslist.org/
 231,New Hampshire,new hampshire,https://nh.craigslist.org/
 232,New Jersey,central NJ,https://cnj.craigslist.org/
 233,New Jersey,jersey shore,https://jerseyshore.craigslist.org/
 234,New Jersey,north jersey,https://newjersey.craigslist.org/
 235,New Jersey,south jersey,https://southjersey.craigslist.org/
 236,New Mexico,albuquerque,https://albuquerque.craigslist.org/
-237,New Mexico,clovis / portales,https://clovis.craigslist.org/
+237,New Mexico,clovis portales,https://clovis.craigslist.org/
 238,New Mexico,farmington,https://farmington.craigslist.org/
 239,New Mexico,las cruces,https://lascruces.craigslist.org/
-240,New Mexico,roswell / carlsbad,https://roswell.craigslist.org/
-241,New Mexico,santa fe / taos,https://santafe.craigslist.org/
+240,New Mexico,roswell carlsbad,https://roswell.craigslist.org/
+241,New Mexico,santa fe taos,https://santafe.craigslist.org/
 242,New York,albany,https://albany.craigslist.org/
 243,New York,binghamton,https://binghamton.craigslist.org/
 244,New York,buffalo,https://buffalo.craigslist.org/
@@ -267,31 +267,31 @@
 265,North Carolina,eastern NC,https://eastnc.craigslist.org/
 266,North Carolina,fayetteville,https://fayetteville.craigslist.org/
 267,North Carolina,greensboro,https://greensboro.craigslist.org/
-268,North Carolina,hickory / lenoir,https://hickory.craigslist.org/
+268,North Carolina,hickory lenoir,https://hickory.craigslist.org/
 269,North Carolina,jacksonville ,https://onslow.craigslist.org/
 270,North Carolina,outer banks,https://outerbanks.craigslist.org/
-271,North Carolina,raleigh / durham / CH,https://raleigh.craigslist.org/
+271,North Carolina,raleigh durham CH,https://raleigh.craigslist.org/
 272,North Carolina,wilmington,https://wilmington.craigslist.org/
 273,North Carolina,winston-salem,https://winstonsalem.craigslist.org/
 274,North Dakota,bismarck,https://bismarck.craigslist.org/
-275,North Dakota,fargo / moorhead,https://fargo.craigslist.org/
+275,North Dakota,fargo moorhead,https://fargo.craigslist.org/
 276,North Dakota,grand forks,https://grandforks.craigslist.org/
 277,North Dakota,north dakota,https://nd.craigslist.org/
-278,Ohio,akron / canton,https://akroncanton.craigslist.org/
+278,Ohio,akron canton,https://akroncanton.craigslist.org/
 279,Ohio,ashtabula,https://ashtabula.craigslist.org/
 280,Ohio,athens ,https://athensohio.craigslist.org/
 281,Ohio,chillicothe,https://chillicothe.craigslist.org/
 282,Ohio,cincinnati,https://cincinnati.craigslist.org/
 283,Ohio,cleveland,https://cleveland.craigslist.org/
 284,Ohio,columbus,https://columbus.craigslist.org/
-285,Ohio,dayton / springfield,https://dayton.craigslist.org/
-286,Ohio,lima / findlay,https://limaohio.craigslist.org/
+285,Ohio,dayton springfield,https://dayton.craigslist.org/
+286,Ohio,lima findlay,https://limaohio.craigslist.org/
 287,Ohio,mansfield,https://mansfield.craigslist.org/
 288,Ohio,sandusky,https://sandusky.craigslist.org/
 289,Ohio,toledo,https://toledo.craigslist.org/
 290,Ohio,tuscarawas co,https://tuscarawas.craigslist.org/
 291,Ohio,youngstown,https://youngstown.craigslist.org/
-292,Ohio,zanesville / cambridge,https://zanesville.craigslist.org/
+292,Ohio,zanesville cambridge,https://zanesville.craigslist.org/
 293,Oklahoma,lawton,https://lawton.craigslist.org/
 294,Oklahoma,northwest OK,https://enid.craigslist.org/
 295,Oklahoma,oklahoma city,https://oklahomacity.craigslist.org/
@@ -318,7 +318,7 @@
 316,Pennsylvania,pittsburgh,https://pittsburgh.craigslist.org/
 317,Pennsylvania,poconos,https://poconos.craigslist.org/
 318,Pennsylvania,reading,https://reading.craigslist.org/
-319,Pennsylvania,scranton / wilkes-barre,https://scranton.craigslist.org/
+319,Pennsylvania,scranton wilkes-barre,https://scranton.craigslist.org/
 320,Pennsylvania,state college,https://pennstate.craigslist.org/
 321,Pennsylvania,williamsport,https://williamsport.craigslist.org/
 322,Pennsylvania,york,https://york.craigslist.org/
@@ -326,13 +326,13 @@
 324,South Carolina,charleston,https://charleston.craigslist.org/
 325,South Carolina,columbia,https://columbia.craigslist.org/
 326,South Carolina,florence,https://florencesc.craigslist.org/
-327,South Carolina,greenville / upstate,https://greenville.craigslist.org/
+327,South Carolina,greenville upstate,https://greenville.craigslist.org/
 328,South Carolina,hilton head,https://hiltonhead.craigslist.org/
 329,South Carolina,myrtle beach,https://myrtlebeach.craigslist.org/
 330,South Dakota,northeast SD,https://nesd.craigslist.org/
-331,South Dakota,pierre / central SD,https://csd.craigslist.org/
-332,South Dakota,rapid city / west SD,https://rapidcity.craigslist.org/
-333,South Dakota,sioux falls / SE SD,https://siouxfalls.craigslist.org/
+331,South Dakota,pierre central SD,https://csd.craigslist.org/
+332,South Dakota,rapid city west SD,https://rapidcity.craigslist.org/
+333,South Dakota,sioux falls SE SD,https://siouxfalls.craigslist.org/
 334,South Dakota,south dakota,https://sd.craigslist.org/
 335,Tennessee,chattanooga,https://chattanooga.craigslist.org/
 336,Tennessee,clarksville,https://clarksville.craigslist.org/
@@ -345,33 +345,33 @@
 343,Texas,abilene,https://abilene.craigslist.org/
 344,Texas,amarillo,https://amarillo.craigslist.org/
 345,Texas,austin,https://austin.craigslist.org/
-346,Texas,beaumont / port arthur,https://beaumont.craigslist.org/
+346,Texas,beaumont port arthur,https://beaumont.craigslist.org/
 347,Texas,brownsville,https://brownsville.craigslist.org/
 348,Texas,college station,https://collegestation.craigslist.org/
 349,Texas,corpus christi,https://corpuschristi.craigslist.org/
-350,Texas,dallas / fort worth,https://dallas.craigslist.org/
+350,Texas,dallas fort worth,https://dallas.craigslist.org/
 351,Texas,deep east texas,https://nacogdoches.craigslist.org/
-352,Texas,del rio / eagle pass,https://delrio.craigslist.org/
+352,Texas,del rio eagle pass,https://delrio.craigslist.org/
 353,Texas,el paso,https://elpaso.craigslist.org/
 354,Texas,galveston,https://galveston.craigslist.org/
 355,Texas,houston,https://houston.craigslist.org/
-356,Texas,killeen / temple / ft hood,https://killeen.craigslist.org/
+356,Texas,killeen temple ft hood,https://killeen.craigslist.org/
 357,Texas,laredo,https://laredo.craigslist.org/
 358,Texas,lubbock,https://lubbock.craigslist.org/
-359,Texas,mcallen / edinburg,https://mcallen.craigslist.org/
-360,Texas,odessa / midland,https://odessa.craigslist.org/
+359,Texas,mcallen edinburg,https://mcallen.craigslist.org/
+360,Texas,odessa midland,https://odessa.craigslist.org/
 361,Texas,san angelo,https://sanangelo.craigslist.org/
 362,Texas,san antonio,https://sanantonio.craigslist.org/
 363,Texas,san marcos,https://sanmarcos.craigslist.org/
 364,Texas,southwest TX,https://bigbend.craigslist.org/
 365,Texas,texoma,https://texoma.craigslist.org/
-366,Texas,tyler / east TX,https://easttexas.craigslist.org/
+366,Texas,tyler east TX,https://easttexas.craigslist.org/
 367,Texas,victoria ,https://victoriatx.craigslist.org/
 368,Texas,waco,https://waco.craigslist.org/
 369,Texas,wichita falls,https://wichitafalls.craigslist.org/
 370,Utah,logan,https://logan.craigslist.org/
 371,Utah,ogden-clearfield,https://ogden.craigslist.org/
-372,Utah,provo / orem,https://provo.craigslist.org/
+372,Utah,provo orem,https://provo.craigslist.org/
 373,Utah,salt lake city,https://saltlakecity.craigslist.org/
 374,Utah,st george,https://stgeorge.craigslist.org/
 375,Vermont,vermont,https://vermont.craigslist.org/
@@ -390,10 +390,10 @@
 388,Washington,kennewick-pasco-richland,https://kpr.craigslist.org/
 389,Washington,moses lake,https://moseslake.craigslist.org/
 390,Washington,olympic peninsula,https://olympic.craigslist.org/
-391,Washington,pullman / moscow,https://pullman.craigslist.org/
+391,Washington,pullman moscow,https://pullman.craigslist.org/
 392,Washington,seattle-tacoma,https://seattle.craigslist.org/
-393,Washington,skagit / island / SJI,https://skagit.craigslist.org/
-394,Washington,spokane / coeur d'alene,https://spokane.craigslist.org/
+393,Washington,skagit island SJI,https://skagit.craigslist.org/
+394,Washington,spokane coeur d'alene,https://spokane.craigslist.org/
 395,Washington,wenatchee,https://wenatchee.craigslist.org/
 396,Washington,yakima,https://yakima.craigslist.org/
 397,West Virginia,charleston ,https://charlestonwv.craigslist.org/

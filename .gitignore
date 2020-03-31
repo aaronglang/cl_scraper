@@ -27,3 +27,5 @@ src/*.pyc
 # ignore dev files
 ./src/queue.py
 main_dev.py
+# ignore pyenv python version file
+.python-version

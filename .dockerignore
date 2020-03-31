@@ -8,3 +8,24 @@
 ## ignore Pipfile
 Pipfile
 Pipfile.lock
+
+# ignore jupyter files
+jupyter
+jupyter/*
+*.ipynb
+.ipynb_checkpoints
+
+# ignore test csv result files
+./db/results
+db/old_results/*
+db/results/*
+./db/*.ipynb
+./db/.ipynb_checkpoints
+./db/*.csv
+
+# ignore html directory
+html
+html/*
+# ignore pyc files
+*.pyc
+src/*.pyc
