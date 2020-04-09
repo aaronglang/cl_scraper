@@ -17,7 +17,7 @@ try:
     depth = os.environ.get('SEARCH_DEPTH')
     get_body = os.environ.get('GET_BODY')
 
-    if all(v is None for v in [search_type, vendor, city, make_model, depth, get_body]):
+    if all(v is None for v in [search_type, vendor, city, depth, get_body]):
         print('Necessary environment variables missing... Clean exit')
         exit(0)
     else:
@@ -35,7 +35,8 @@ def main():
     try:
         # initialize search class with parameters
         cs = CraigSearch(city=city, search_type=search_type, vendor=vendor)
-        cs.set_params(auto_make_model=make_model)
+        if make_model is not None:
+            cs.set_params(auto_make_model=make_model)
         posts = []
         generated = cs.extract_all_postings(first_page_only=False, depth=depth, get_body=get_body)
         # loop through generated results and append to list
