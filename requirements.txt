@@ -3,7 +3,7 @@ beautifulsoup4==4.8.2
 boto3==1.11.9
 botocore==1.14.9
 bs4==0.0.1
-certifi==2019.11.28
+certifi==2022.12.7
 chardet==3.0.4
 docutils==0.15.2
 editdistance==0.5.3
